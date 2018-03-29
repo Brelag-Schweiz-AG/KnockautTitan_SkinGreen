@@ -76,7 +76,7 @@ background-image: url(./img/titan-logo-2.png);
 	background-color: #000000;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: linear-gradient(to bottom, #000000, #212122);
+	background-image: -webkit-linear-gradient(to bottom, #36302F, #534C4B);
 }
 
 /* Deckkraft der Zellen in der Navigation Wert 0 - 1 */
@@ -97,14 +97,14 @@ background-image: url(./img/titan-logo-2.png);
 	border-style: solid;
 	border-width: 1px;
 	border-color: rgb(181, 225, 10);
-	border-image: linear-gradient(to right, rgb(181, 225, 10), rgba(0, 0, 0, 0) 10%);
+	border-image: -webkit-linear-gradient(to right, rgb(181, 225, 10), rgba(0, 0, 0, 0.1) 10%);
 	border-image-slice: 1;
 	color: #FFFFFF;
 }
 
 /* Modul / Instanz */
 .ipsCategory>.container.hasChildren {
-	background-image: linear-gradient(to right, rgb(181, 225, 10), rgba(0, 0, 0, 0) 10%);
+	background-image: -webkit-linear-gradient(to right, rgb(181, 225, 10), rgba(0, 0, 0, 0.1) 10%);
 	background-color: #000000;
 	border-color: #000000;
 	border-width: 1px;
