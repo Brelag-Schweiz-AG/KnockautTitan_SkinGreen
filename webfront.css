@@ -105,9 +105,11 @@ background-image: url(./img/titan-logo-2.png);
 /* Modul / Instanz */
 .ipsCategory>.container.hasChildren {
 	background-image: -webkit-linear-gradient(left, rgb(181, 225, 10), rgba(29, 26, 26, 0.9) 10%);
-	border-color: #B5E10A;
-	background-color: #000000;
+	border-style: solid;
 	border-width: 1px;
+	border-color: #B5E10A;
+	border-image: -webkit-linear-gradient(left, rgb(181, 225, 10), rgb(54, 48, 47) 50%);
+	border-image-slice: 1;
 	color: #FFFFFF;
 }
 
