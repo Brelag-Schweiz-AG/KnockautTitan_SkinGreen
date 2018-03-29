@@ -76,7 +76,7 @@ background-image: url(./img/titan-logo-2.png);
 	background-color: #000000;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: linear-gradient(to Bottom, rgb(0, 0, 0), rgb(83, 76, 75) 80%);
+	background-image: linear-gradient(to Bottom, rgb(54, 48, 47), rgb(0, 0, 0) 100%);
 }
 
 /* Deckkraft der Zellen in der Navigation Wert 0 - 1 */
