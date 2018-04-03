@@ -145,11 +145,10 @@ background-image: url(./img/titan-logo-2.png);
 /* Variablen Wertauswahl z.B. "An" -> Wert ausgewählt */
 .ipsCategory>.container .content .visual>.enum>.selected {
 	filter: none;
-	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.25) 100%);
-	background-color: #2bff00;
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0.15) 0,rgba(255,255,255,0.25) 100%);
+	background-color: rgb(70, 70, 70);
 	border-style: none;
 	color: #000000;
-	opacity: 0.15;
 }
 
 .ipsCategory>.container .content .visual>.selector {
