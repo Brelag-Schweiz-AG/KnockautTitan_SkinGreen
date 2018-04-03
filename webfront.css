@@ -37,7 +37,7 @@ background-image: url(./img/titan-logo-2.png);
 
 /* Hintergrund beim Loging */
 .ipsLogin {
-	background-color: #000000;
+	background-color: #36302F;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 
@@ -45,8 +45,8 @@ background-image: url(./img/titan-logo-2.png);
 
 /* Balken mit WebFronts beim Loging */
 .ipsLogin>.content>.configurators {
-	background-color: #000000;
-	border-color: #2bff00;
+	background-color: #36302F;
+	border-color: #B5E10A;
 }
 
 /* Unbekannt */
@@ -104,7 +104,7 @@ background-image: url(./img/titan-logo-2.png);
 
 /* Modul / Instanz */
 .ipsCategory>.container.hasChildren {
-	background-image: -webkit-linear-gradient(left, rgb(181, 225, 10), rgba(29, 26, 26, 0.9) 10%);
+	
 	border-style: solid;
 	border-width: 1px;
 	border-color: #B5E10A;
