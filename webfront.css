@@ -149,6 +149,7 @@ background-image: url(./img/titan-logo-2.png);
 	background-color: #2bff00;
 	border-style: none;
 	color: #000000;
+	opacity: 0.15;
 }
 
 .ipsCategory>.container .content .visual>.selector {
