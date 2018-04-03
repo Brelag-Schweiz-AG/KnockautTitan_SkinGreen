@@ -97,6 +97,7 @@ background-image: url(./img/titan-logo-2.png);
 	border-style: solid;
 	border-width: 1px;
 	border-color: #B5E10A;
+	border-image: -webkit-linear-gradient(left, rgb(181, 225, 10), rgba(29, 26, 26, 0.9) 10%, rgba(29, 26, 26, 0.9) 90%, rgb(181, 225, 10));
 	border-image-slice: 1;
 	color: #FFFFFF;
 }
