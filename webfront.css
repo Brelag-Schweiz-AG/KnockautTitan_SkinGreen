@@ -91,21 +91,20 @@ background-image: url(./img/titan-logo-2.png);
 
 
 
-/* Wen eine einzelne Variable angezeigt wird */
+/* Wen eine einzelne Variable angezeigt wird. Wird benötigt damit einzelne Variablen anders dargestellt werden wie Module. */
 .ipsCategory>.container {
 	background-color: #222222;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #B5E10A;
 	border-image: -webkit-linear-gradient(left, rgb(181, 225, 10), rgba(29, 26, 26, 0.9) 10%);
-	background-image: -webkit-linear-gradient(left, rgb(181, 225, 10), rgba(29, 26, 26, 0.9) 10%);
 	border-image-slice: 1;
 	color: #FFFFFF;
 }
 
-/* Modul / Instanz */
+/* Modul / Instanz. Der Rand ist mit .container verknüpft */
 .ipsCategory>.container.hasChildren {
-
+	background-image: -webkit-linear-gradient(left, rgb(181, 225, 10), rgba(29, 26, 26, 0.9) 10%);
 	border-style: solid;
 	border-width: 1px;
 	border-color: #B5E10A;
