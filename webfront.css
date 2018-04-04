@@ -26,7 +26,8 @@ body {
 	background-size: contain;
 	position: absolute;
 
-	top: 0;
+	width: 50%;
+	top: 40%;
 	left: 0;
 	margin-left: 35%;
 	margin-top: 20px;
